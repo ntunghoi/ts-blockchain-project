@@ -18,4 +18,7 @@ yarn hardhat compile
 
 # contract deploy
 yarn hardhat ignition deploy ./ignition/modules/CrowdFund.ts --network localhost
+
+# hardhat clear build cache and artifacts
+yarn hardhat clean
 ```
