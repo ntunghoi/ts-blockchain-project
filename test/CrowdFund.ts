@@ -2,7 +2,6 @@ import assert from 'node:assert/strict'
 import { describe, it } from 'node:test'
 import hre from 'hardhat'
 import { parseEther, getAddress } from 'viem'
-import { crossfi } from 'viem/chains'
 
 describe('CrowdFund Contract', () => {
   // A resuable fixture to set up state before each test scenario
