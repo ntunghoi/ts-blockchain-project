@@ -44,3 +44,6 @@
 
 # Snapshot cheatcodes output
 /snapshots
+
+# Hardhat Ignition: Only ignore local node deployments
+ignition/deployments/chain-31337
